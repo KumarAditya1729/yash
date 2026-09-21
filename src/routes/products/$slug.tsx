@@ -47,8 +47,12 @@ function ProductDetailPage() {
             <div
               className={`detail-art product-art-${product.color} rounded-sm relative overflow-hidden`}
             >
+              {product.image ? (
+                <img src={product.image} alt={product.name} className="detail-img" />
+              ) : null}
+              <div className="detail-overlay" />
               <span className="detail-number">{product.index}</span>
-              <div className="absolute top-6 right-6">
+              <div className="absolute top-6 right-6 z-10">
                 <StatusBadge status={product.status} />
               </div>
             </div>

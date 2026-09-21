@@ -3,7 +3,7 @@ import { ArrowDown, ArrowUpRight } from "lucide-react";
 import heroImage from "@/assets/anvaya-hero.jpg";
 import { Button } from "@/components/ui/button";
 import { ProductTile, SectionLink, SiteFooter, SiteHeader } from "@/components/anvaya-site";
-import { products } from "@/lib/anvaya-data";
+import { categoryImages, products } from "@/lib/anvaya-data";
 import { AnvayaEmblem } from "@/components/anvaya-logo";
 
 export const Route = createFileRoute("/")({
@@ -119,47 +119,77 @@ function Home() {
               </p>
             </div>
             <div className="category-strip">
-              <div className="category-panel">
-                <div className="category-num">
-                  <span>01</span>
-                  <span>Core categories</span>
+              <div className="category-panel category-panel-with-img group">
+                <img
+                  src={categoryImages.spices}
+                  alt="Spices and Seasonings"
+                  className="category-bg-img"
+                />
+                <div className="category-overlay" />
+                <div className="category-panel-content">
+                  <div className="category-num">
+                    <span>01</span>
+                    <span>Core categories</span>
+                  </div>
+                  <div>
+                    <h3>
+                      Spices &amp;
+                      <br />
+                      seasonings
+                    </h3>
+                    <p>
+                      Turmeric, pepper, cardamom, cumin, and more — formats and specifications to be
+                      confirmed.
+                    </p>
+                  </div>
+                  <SectionLink to="/products">Browse the explorer</SectionLink>
                 </div>
-                <h3>
-                  Spices &amp;
-                  <br />
-                  seasonings
-                </h3>
-                <p>
-                  Turmeric, pepper, cardamom, cumin, and more — formats and specifications to be
-                  confirmed.
-                </p>
-                <SectionLink to="/products">Browse the explorer</SectionLink>
               </div>
-              <div className="category-panel">
-                <div className="category-num">
-                  <span>02</span>
-                  <span>Grains</span>
+              <div className="category-panel category-panel-with-img group">
+                <img
+                  src={categoryImages.grains}
+                  alt="Rice and Supergrains"
+                  className="category-bg-img"
+                />
+                <div className="category-overlay" />
+                <div className="category-panel-content">
+                  <div className="category-num">
+                    <span>02</span>
+                    <span>Grains</span>
+                  </div>
+                  <div>
+                    <h3>
+                      Rice &amp;
+                      <br />
+                      supergrains
+                    </h3>
+                    <p>Basmati, non-basmati, millets, and future-facing grain conversations.</p>
+                  </div>
+                  <SectionLink to="/products">View categories</SectionLink>
                 </div>
-                <h3>
-                  Rice &amp;
-                  <br />
-                  supergrains
-                </h3>
-                <p>Basmati, non-basmati, millets, and future-facing grain conversations.</p>
-                <SectionLink to="/products">View categories</SectionLink>
               </div>
-              <div className="category-panel">
-                <div className="category-num">
-                  <span>03</span>
-                  <span>Specialty</span>
+              <div className="category-panel category-panel-with-img group">
+                <img
+                  src={categoryImages.specialty}
+                  alt="Nuts and Seeds"
+                  className="category-bg-img"
+                />
+                <div className="category-overlay" />
+                <div className="category-panel-content">
+                  <div className="category-num">
+                    <span>03</span>
+                    <span>Specialty</span>
+                  </div>
+                  <div>
+                    <h3>
+                      Nuts,
+                      <br />
+                      seeds &amp; more
+                    </h3>
+                    <p>Makhana, sesame, cashew, and potential value-added food directions.</p>
+                  </div>
+                  <SectionLink to="/products">See possibilities</SectionLink>
                 </div>
-                <h3>
-                  Nuts,
-                  <br />
-                  seeds &amp; more
-                </h3>
-                <p>Makhana, sesame, cashew, and potential value-added food directions.</p>
-                <SectionLink to="/products">See possibilities</SectionLink>
               </div>
             </div>
           </div>

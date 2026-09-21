@@ -201,8 +201,11 @@ export function ProductTile({
       className={featured ? "product-tile product-tile-featured" : "product-tile"}
     >
       <div className={`product-art product-art-${product.color}`}>
-        <span>{product.index}</span>
-        <span className="art-line" />
+        {product.image ? (
+          <img src={product.image} alt={product.name} className="product-img" loading="lazy" />
+        ) : null}
+        <span className="product-index-tag">{product.index}</span>
+        <div className="product-art-overlay" />
       </div>
       <div className="product-tile-body">
         <div>
