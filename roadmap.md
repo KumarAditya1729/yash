@@ -1,0 +1,5 @@
+- [ ] Establish Anvaya design system and shared navigation
+- [ ] Build editorial homepage with product discovery and enquiry paths
+- [ ] Add product explorer and product detail routes
+- [ ] Add supporting company, sourcing, markets, quality, contact, legal pages
+- [ ] Verify preview navigation and responsive presentation

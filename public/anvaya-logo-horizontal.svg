@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" width="720" height="180" fill="none">
+  <defs>
+    <linearGradient id="h-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E4C2" />
+      <stop offset="30%" stop-color="#D9BA7C" />
+      <stop offset="70%" stop-color="#B38D48" />
+      <stop offset="100%" stop-color="#E2C589" />
+    </linearGradient>
+    <linearGradient id="h-gold-bright" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7E6" />
+      <stop offset="45%" stop-color="#E6C88A" />
+      <stop offset="100%" stop-color="#BE964E" />
+    </linearGradient>
+    <linearGradient id="h-leaf" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#365C44" />
+      <stop offset="45%" stop-color="#5B8764" />
+      <stop offset="100%" stop-color="#81A87A" />
+    </linearGradient>
+    <linearGradient id="h-leaf-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3E2E" />
+      <stop offset="100%" stop-color="#436B50" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Emblem -->
+  <g transform="translate(40, 20) scale(0.68)">
+    <path d="M 116 16 L 126 50 L 175 168 L 196 172 L 196 176 L 140 176 L 140 172 L 154 168 L 125 96 L 115 54 Z" fill="#0F3D2E" />
+    <path d="M 116 16 L 115 54 L 92 98 L 76 86 Z" fill="#0F3D2E" />
+    <path d="M 52 148 C 38 126 42 100 58 78 C 66 68 76 60 84 56 C 81 74 74 95 62 116 C 54 130 52 142 52 148 Z" fill="url(#h-leaf-dark)" />
+    <path d="M 84 56 C 88 72 88 92 81 114 C 74 134 62 148 52 148 C 58 134 66 112 72 90 C 78 72 82 58 84 56 Z" fill="url(#h-leaf)" />
+    <path d="M 84 56 C 80 82 70 114 52 148" stroke="#B2D3AC" stroke-width="1.2" stroke-linecap="round" opacity="0.65" />
+    <path d="M 32 152 C 26 158 24 166 28 171 C 33 175 42 176 56 172 C 78 166 98 152 116 136 C 132 122 146 114 162 114 C 182 114 198 126 198 140 C 198 144 196 148 191 148 C 186 148 184 144 184 140 C 184 132 174 124 160 124 C 142 124 126 134 108 148 C 88 164 66 178 44 180 C 30 181 20 176 16 166 C 13 158 16 148 24 142 C 27 140 30 142 32 152 Z" fill="url(#h-gold)" />
+    <path d="M 38 168 C 62 162 88 144 114 126 C 134 112 152 104 168 104 C 188 104 204 116 204 128 C 204 133 200 137 195 137 C 190 137 188 132 186 128 C 182 118 172 112 158 112 C 140 112 120 124 98 142 C 74 160 52 174 38 168 Z" fill="url(#h-gold-bright)" opacity="0.9" />
+    <path d="M 124 116 C 146 98 174 92 194 98 C 208 102 216 112 214 122 C 211 134 198 142 182 142 C 166 142 152 134 144 124 C 141 120 144 116 148 118 C 156 126 168 134 182 134 C 196 134 206 126 208 118 C 210 110 202 102 190 98 C 172 92 146 98 126 114 Z" fill="url(#h-gold)" />
+    <g transform="translate(168, 68)">
+      <circle cx="0" cy="0" r="28" stroke="url(#h-gold)" stroke-width="1.8" stroke-opacity="0.4" />
+      <circle cx="0" cy="0" r="26" fill="url(#h-gold)" opacity="0.18" />
+      <ellipse cx="0" cy="0" rx="26" ry="12" stroke="url(#h-gold-bright)" stroke-width="1.1" stroke-opacity="0.5" />
+      <ellipse cx="0" cy="0" rx="14" ry="26" stroke="url(#h-gold-bright)" stroke-width="1.1" stroke-opacity="0.5" />
+      <line x1="-26" y1="0" x2="26" y2="0" stroke="url(#h-gold-bright)" stroke-width="1.1" stroke-opacity="0.5" />
+      <line x1="0" y1="-26" x2="0" y2="26" stroke="url(#h-gold-bright)" stroke-width="1.1" stroke-opacity="0.5" />
+      <path d="M -8 -12 C -2 -14 6 -16 14 -10 C 18 -6 20 0 16 8 C 12 12 4 15 -4 14 C -12 12 -16 4 -14 -4 Z" fill="url(#h-gold-bright)" opacity="0.75" />
+      <circle cx="4" cy="-2" r="3.2" fill="#0F3D2E" opacity="0.9" />
+      <circle cx="4" cy="-2" r="1.8" fill="#D9BA7C" />
+    </g>
+    <g transform="translate(196, 60)">
+      <path d="M 0 -18 L 3 -4 L 18 0 L 3 4 L 0 18 L -3 4 L -18 0 L -3 -4 Z" fill="url(#h-gold-bright)" />
+      <path d="M 0 -9 L 2 -2 L 9 0 L 2 2 L 0 9 L -2 2 L -9 0 L -2 -2 Z" fill="#FFFFFF" opacity="0.85" />
+      <circle cx="0" cy="0" r="2" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- Right Typography -->
+  <g transform="translate(230, 0)">
+    <!-- ANVAYA -->
+    <text x="0" y="68" fill="#0F3D2E" font-family="'Cormorant Garamond', 'Instrument Serif', Georgia, serif" font-size="46" font-weight="700" letter-spacing="8">ANVAYA</text>
+    
+    <!-- — G L O B A L — -->
+    <g transform="translate(0, 96)">
+      <line x1="0" y1="-4" x2="45" y2="-4" stroke="#C9A96B" stroke-width="1.2" />
+      <text x="56" y="0" fill="#C9A96B" font-family="'Work Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="6">GLOBAL</text>
+      <line x1="165" y1="-4" x2="210" y2="-4" stroke="#C9A96B" stroke-width="1.2" />
+    </g>
+
+    <!-- Tagline -->
+    <text x="0" y="132" fill="#0F3D2E" font-family="'Cormorant Garamond', 'Instrument Serif', Georgia, serif" font-size="18" font-style="italic">Relationships are the currency of trade&#8482;</text>
+  </g>
+</svg>
