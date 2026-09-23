@@ -31,6 +31,12 @@ export function SiteHeader() {
             Products
           </Link>
           <Link
+            to="/catalog"
+            className={isActive("/catalog") ? "nav-link nav-link-active" : "nav-link"}
+          >
+            Catalogue
+          </Link>
+          <Link
             to="/sourcing"
             className={isActive("/sourcing") ? "nav-link nav-link-active" : "nav-link"}
           >
@@ -72,6 +78,7 @@ export function SiteHeader() {
             [
               ["About", "/about"],
               ["Products", "/products"],
+              ["Catalogue", "/catalog"],
               ["Sourcing", "/sourcing"],
               ["Markets", "/markets"],
               ["Quality & documents", "/quality"],
@@ -115,6 +122,7 @@ export function SiteFooter() {
           <span className="footer-label">Explore</span>
           <Link to="/about">About</Link>
           <Link to="/products">Product explorer</Link>
+          <Link to="/catalog">Export Catalogue</Link>
           <Link to="/sourcing">Sourcing approach</Link>
           <Link to="/markets">Market opportunities</Link>
         </div>
@@ -379,7 +387,7 @@ export function SectionLink({
   to,
   children,
 }: {
-  to: "/about" | "/products" | "/sourcing" | "/markets" | "/quality" | "/contact";
+  to: "/about" | "/products" | "/sourcing" | "/markets" | "/quality" | "/contact" | "/catalog";
   children: React.ReactNode;
 }) {
   return (
